@@ -1,0 +1,29 @@
+{
+  "name": "translate-rest-api-with-caching",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Paul Lobo",
+  "dependencies": {
+    "@google-cloud/translate": "^6.0.3",
+    "bcrypt": "^3.0.7",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.2",
+    "node-input-validator": "^4.2.0",
+    "nodemon": "^2.0.4",
+    "redis": "^3.0.2",
+    "trim-request": "^1.0.6",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/register": "^7.8.3"
+  }
+}
